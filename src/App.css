@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'TestSoehneSchmal';
+  src: url('./assets/fonts/TestSoehneSchmal-Dreiviertelfett.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('./assets/fonts/MaisonNeue-Light.otf') format('opentype');
+}
+
+.mainson_Neue {
+  font-family: 'MaisonNeue', sans-serif;
+}
+
+.sohne_schmal {
+  font-family: 'TestSoehneSchmal', sans-serif;
+}
+
+body {
+  font-family: 'MaisonNeue', sans-serif;
+}
