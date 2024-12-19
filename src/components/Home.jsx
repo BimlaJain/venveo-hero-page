@@ -3,6 +3,7 @@ import Header from '../common/Header';
 import HeroBg from '../assets/png/hero-bg.png'
 import HeroCard from '../assets/png/hero-card.png'
 import HeroCardMobile from '../assets/png/hero-card1.png'
+import GreenEllipse from '../assets/png/green-elipse.png'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
                         className="lg:text-custom-sm md:text-custom-md text-5xl  text-white font-bold leading-custom-sm sohne_schmal uppercase max-w-[822px] mx-auto">
                         Make marketing a growth machine
                     </h1>
+                    <img src={GreenEllipse} alt="green-ellipse" className='-mt-3 lg:pl-60 sm:pl-[140px] sm:block hidden' />
                     <p className="font-light md:text-2xl text-lg leading-snug text-white max-w-[652px] mx-auto mt-4 mainson_Neue">
                         We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get
                         a proposal now.
@@ -26,7 +28,7 @@ const Home = () => {
                             id="email"
                             type="text"
                             placeholder="Enter Your Website"
-                            className="bg-transparent outline-none flex-grow"
+                            className="bg-transparent outline-none flex-grow text-white"
                             aria-label="Enter your website"
                         />
                         <a

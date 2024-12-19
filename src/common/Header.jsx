@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import navLogo from "../assets/png/logo.png";
 import rightArrow from "../assets/svg/right-arrow.svg";
+import Search from "../assets/svg/search.svg"
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,7 +36,7 @@ const Header = () => {
                     </button>
                     <div
                         className={`${isMenuOpen ? "block" : "hidden"
-                            } absolute top-0 left-0 w-full bg-white max-lg:bg-blue transition-all duration-700 ease-in-out lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen overflow-hidden z-10`}
+                            } absolute top-0 left-0 w-full bg-white max-lg:bg-blue transition-all duration-700 ease-in-out lg:flex  max-lg:fixed lg:static lg:w-auto  items-center max-lg:min-h-screen overflow-hidden z-10 pl-10`}
                     >
                         <div className="flex flex-col lg:flex-row gap-[42px] py-6 md:py-0 pl-6 md:pl-0 items-center max-lg:justify-center max-lg:min-h-screen">
                             {[
@@ -67,7 +68,7 @@ const Header = () => {
                                 <div key={index} className="relative dropdown">
                                     <a
                                         href="#"
-                                        className="text-sm font-medium hover:text-yellow-500"
+                                        className="text-sm font-medium lg:text-black text-white hover:text-yellow-500"
                                         onClick={toggleDropdown}
                                     >
                                         {menu.title} <span>▼</span>
@@ -77,7 +78,7 @@ const Header = () => {
                                             <a
                                                 key={idx}
                                                 href="#"
-                                                className="block text-sm text-gray-700 hover:text-yellow-500 mb-2"
+                                                className="block text-sm lg:text-black text-white hover:text-yellow mb-2"
                                             >
                                                 {item}
                                             </a>
@@ -85,11 +86,12 @@ const Header = () => {
                                     </div>
                                 </div>
                             ))}
+                            <img src={Search} alt="search" className="lg:fill-black fill-white" />
                             <div className=" bg-yellow flex lg:py-8 lg:px-[31px] py-3 px-6 h-[81px]">
                                 <a
                                     href="#"
                                     className="text-custom-xs font-medium leading-normal flex items-center justify-center">
-                                    Let’s Talk <span><img className="mt-2 ml-1" src={rightArrow} alt="arrow" /></span>
+                                    Let’s Talk <span><img className="lg:mt-2 ml-1" src={rightArrow} alt="arrow" /></span>
                                 </a>
                             </div>
                         </div>
