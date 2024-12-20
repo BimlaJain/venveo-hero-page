@@ -54,7 +54,7 @@ const Header = ({ myClass }) => {
                     <div className={`h-[2px] bg-white w-8 transition-all duration-300 rounded-lg ${open ? "-rotate-[53deg] origin-center" : ""} `}></div>
                 </div>
             </div>
-            <div className={`w-full h-full bg-blue transition-all duration-500 left-0 md:-top-full z-20 fixed flex flex-col items-center justify-center items-center ${open ? "top-0 left-0" : "-top-full"
+            <div className={`w-full h-full bg-blue transition-all duration-500 left-0 md:-top-full z-20 fixed flex flex-col items-center justify-center ${open ? "top-0 left-0" : "-top-full"
                 }`}>
                 <div className=' relative z-10 flex flex-col item-center justify-center text-center gap-7'>
                     {NAV_LIST.map((obj, i) => (

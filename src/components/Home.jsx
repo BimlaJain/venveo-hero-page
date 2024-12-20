@@ -8,7 +8,7 @@ import GreenEllipse from '../assets/png/green-elipse.png'
 
 const Home = () => {
     return (
-        <div className='lg:min-h-screen 2xl:min-h-fit bg-cover bg-no-repeat bg-hero-bg 2xl:h-[869px] md:h-[800px] h-[650px]' style={{ backgroundImage: `url(${HeroBg})` }}>
+        <div className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px]' style={{ backgroundImage: `url(${HeroBg})` }}>
             <Header />
             <div className="container relative">
                 <header className="text-center sm:mt-20 mt-14">
