@@ -58,7 +58,7 @@ const Header = ({ myClass }) => {
                 }`}>
                 <div className=' relative z-10 flex flex-col item-center justify-center items-center text-center gap-7'>
                     {NAV_LIST.map((obj, i) => (
-                        <select key={i} name="venveo" id="myLink" className='custom-select cursor-pointer text-[15px] text-white leading-[15px] font-maisonMedium outline-none max-lg:mx-auto bg-transparent'>
+                        <select key={i} name="venveo" id="myLink" className='custom-select cursor-pointer text-[15px] text-black leading-[15px] font-maisonMedium outline-none max-lg:mx-auto bg-transparent'>
                             <option value={obj.title}>{obj.title}</option>
                             <option value={obj.OptionOne}>{obj.OptionOne}</option>
                             <option value={obj.OptionTwo}>{obj.OptionTwo}</option>

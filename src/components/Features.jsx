@@ -43,7 +43,7 @@ const Features = () => {
                             key={index}
                             src={src}
                             alt={`featured-logo-${index}`}
-                            className="w-32 h-auto object-contain inline-block"
+                            className="h-auto object-contain inline-block"
                         />
                     ))}
                 </div>
@@ -53,7 +53,7 @@ const Features = () => {
                             key={index}
                             src={src}
                             alt={`featured-logo-${index}`}
-                            className="w-32 h-auto object-contain"
+                            className="h-auto object-contain"
                         />
                     ))}
                 </div>
