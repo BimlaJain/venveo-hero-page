@@ -27,12 +27,13 @@ const Home = () => {
                         <input
                             id="email"
                             type="text"
+                            required
                             placeholder="Enter Your Website"
                             className="bg-transparent outline-none flex-grow text-white"
                             aria-label="Enter your website"
                         />
                         <a
-                            href="/"
+                            href=""
                             className="text-white text-center"
                             aria-label="Analyze your website"
                         >
