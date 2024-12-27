@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from '../common/Header';
-import HeroBg from '../assets/png/hero-bg.png'
-import HeroCard from '../assets/png/hero-card.png'
-import HeroCardMobile from '../assets/png/hero-card1.png'
-import GreenEllipse from '../assets/png/green-elipse.png'
+import HeroBg from '../assets/images/png/hero-bg.png'
+import HeroCard from '../assets/images/png/hero-card.png'
+import HeroCardMobile from '../assets/images/png/hero-card1.png'
+import GreenEllipse from '../assets/images/png/green-elipse.png'
 
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
                             type="text"
                             required
                             placeholder="Enter Your Website"
-                            className="bg-transparent outline-none flex-grow text-white"
+                            className="bg-transparent outline-none flex-grow text-white placeholder:text-grey"
                             aria-label="Enter your website"
                         />
                         <a

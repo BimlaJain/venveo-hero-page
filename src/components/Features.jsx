@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { ICON_IMAGES } from '../utils/helper'; 
-import GreenLine from '../assets/png/green-line.png';
+import GreenLine from '../assets/images/png/green-line.png';
 
 const Features = () => {
     const sliderRef = useRef(null);

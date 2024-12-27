@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../assets/png/logo.png'
+import logo from '../assets/images/png/logo.png'
 import { NAV_LIST } from '../utils/helper'
-import RightArrow  from '../assets/svg/right-arrow.svg'
-import  SearchIcon  from '../assets/svg/search.svg'
+import RightArrow  from '../assets/images/svg/right-arrow.svg'
+import  SearchIcon  from '../assets/images/svg/search.svg'
 
 const Header = ({ myClass }) => {
     const [open, setOpen] = useState()
@@ -27,10 +27,10 @@ const Header = ({ myClass }) => {
                     <img src={logo} alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
                 </a>
             </div>
-            <div className={`flex items-center ${myClass} max-lg:hidden -mt-8 `}>
+            <div className={`flex items-center ${myClass} max-lg:hidden -mt-10 `}>
                 <div className='bg-white relative z-10 py-7 max-lg:py-4 flex item-center gap-[42px] max-lg:gap-5 max-lg:px-6 pl-[41.79px] pr-[29.5px]'>
                     {NAV_LIST.map((obj, i) => (
-                        <select key={i} name="venveo" id="myLink" className='cursor-pointer text-[15px] leading-[15px] font-maisonMedium outline-none '>
+                        <select key={i} name="venveo" id="myLink" className='cursor-pointer text-[15px] leading-[15px] text-black font-maisonMedium outline-none '>
                             <option value={obj.title}>{obj.title}</option>
                             <option value={obj.OptionOne}>{obj.OptionOne}</option>
                             <option value={obj.OptionTwo}>{obj.OptionTwo}</option>
@@ -39,11 +39,11 @@ const Header = ({ myClass }) => {
                     ))}
                     <div>                        
                         <a href="">
-                            <img src={SearchIcon} alt="search-icon" className='group-hover:fill-blue transition-all duration-300' stroke='group-hover:stroke-blue transition-all duration-300' />
+                            <img src={SearchIcon} alt="search-icon" className='group-hover:fill-blue transition-all duration-300 hover:scale-105' stroke='group-hover:stroke-blue transition-all duration-300' />
                         </a>
                     </div>
                 </div>
-                <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-black hover:text-white right-arrow'>Let's Talk <img src={RightArrow} alt="right-arrow" /></button>
+                <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-blue right-arrow'>Let's Talk <img src={RightArrow} alt="right-arrow" /></button>
             </div>
             <div
                 className={`lg:hidden z-30 cursor-pointer pr-7`}
@@ -58,7 +58,7 @@ const Header = ({ myClass }) => {
                 }`}>
                 <div className=' relative z-10 flex flex-col item-center justify-center items-center text-center gap-7'>
                     {NAV_LIST.map((obj, i) => (
-                        <select key={i} name="venveo" id="myLink" className='custom-select cursor-pointer text-[15px] text-black leading-[15px] font-maisonMedium outline-none max-lg:mx-auto bg-transparent'>
+                        <select key={i} name="venveo" id="myLink" className='custom-select cursor-pointer text-[15px] text-white leading-[15px] font-maisonMedium outline-none max-lg:mx-auto bg-transparent'>
                             <option value={obj.title}>{obj.title}</option>
                             <option value={obj.OptionOne}>{obj.OptionOne}</option>
                             <option value={obj.OptionTwo}>{obj.OptionTwo}</option>

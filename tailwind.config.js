@@ -18,6 +18,7 @@ module.exports = {
       colors: {
         "yellow": "#D2F038",
         "blue": "#097980",
+        "grey": "#9DC9CC"
       },
       fontSize: {
         "custom-xs": "15px",
@@ -26,7 +27,7 @@ module.exports = {
         
       },
       lineHeight: {
-        "custom-sm": "115%",
+        "custom-sm": "92%",
       }
     },
   },
