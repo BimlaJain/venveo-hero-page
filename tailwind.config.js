@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    "./src/*/.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {
@@ -24,7 +24,9 @@ module.exports = {
         "custom-xs": "15px",
         "custom-sm": "120px",
         "custom-md": "100px",
-        
+        "custom-lg": "80px",
+        "custom-xl": "50px",
+        "custom-2xl": "40px",
       },
       lineHeight: {
         "custom-sm": "92%",

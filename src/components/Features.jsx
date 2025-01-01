@@ -1,6 +1,5 @@
 import React, { useEffect, useRef } from 'react';
 import { ICON_IMAGES } from '../utils/helper'; 
-import GreenLine from '../assets/images/png/green-line.png';
 
 const Features = () => {
     const sliderRef = useRef(null);
@@ -58,7 +57,7 @@ const Features = () => {
                     ))}
                 </div>
             </div>
-            <img src={GreenLine} alt="line image" className="mx-auto w-full" />
+            <img src="./assets/images/png/green-line.png" alt="line image" className="mx-auto w-full" />
         </div>
     );
 };

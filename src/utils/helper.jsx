@@ -1,9 +1,3 @@
-import Wsj from '../assets/images/png/wsj-img.png';
-import Entrepreneur from '../assets/images/png/entrepreneur.png';
-import Fortune from '../assets/images/png/fortune.png';
-import Forbes from '../assets/images/png/fortune.png';
-import Inc from '../assets/images/png/inc.png';
-
 export const NAV_LIST = [
     {
         title: "How We Help",
@@ -30,37 +24,112 @@ export const NAV_LIST = [
         optionThree: "Object 3",
     },
 ]
-export const ICON_IMAGES = [Wsj, Entrepreneur, Fortune, Forbes, Inc];
-export const ACTUAL_RESULTS = [
+export const ICON_IMAGES = [
+    '../assets/images/png/wsj-img.png',
+    '../assets/images/png/entrepreneur.png',
+    '../assets/images/png/fortune.png',
+    '../assets/images/png/forbes.png',
+    '../assets/images/png/inc.png'
+];
+export const CARD_LIST = [
     {
-        description: "Venveo helped us achieve growth beyond expectations with an excellent brand strategy.",
-        name: "Sarah Johnson",
-        title: "Marketing Director at BuildPro",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-two-image.webp",
+        id: 1,
+        img: "./assets/images/svg/traffic.svg",
+        alt: "Website Traffic",
+        title: "My website isn't getting enough traffic",
+        description:
+            "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
+        points: [
+            "Boost your presence in search results",
+            "Capture targeted site traffic",
+            "Turn site visitors into customers",
+        ],
     },
-
     {
-        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging, and cultural standpoint.",
-        name: "Jon Vaughan",
-        title: "Regional VP-SE at US LBM",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-one-image.webp",
+        id: 2,
+        img: "./assets/images/svg/digital.svg",
+        alt: "Digital Ad Campaigns",
+        title: "My CPL from digital ad campaigns is too high",
+        description:
+            "Without consistent site traffic, you’re missing out on valuable visitors, leads, and revenue. Thankfully, custom SEO solutions can get you back on track by boosting your presence in search engine results, so more people can find and visit your site.",
+        points: [
+            "Refine ad targeting",
+            "Engage your audience where they browse online",
+            "Maximize paid ad budget",
+        ],
     },
-
     {
-        description: "Their innovative ideas and flawless execution drove our success to new heights.",
-        name: "Michael Lee",
-        title: "CEO at Constructive Works",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-three-image.png",
+        id: 3,
+        img: "./assets/images/svg/website.svg",
+        alt: "Lead Generation",
+        title: "My website isn’t generating enough leads",
+        description:
+            "Struggling to get qualified leads in your pipeline? Turn up the dial on your lead generation with digital marketing plans, tailored to your goals and budget.",
+        points: [
+            "Fill up your lead pipeline",
+            "Reach your most valuable audience",
+            "Maximize conversion opportunities",
+        ],
     },
-
     {
-        description: "Their innovative ideas and flawless execution drove our success to new heights.",
-        name: "Michael Lee",
-        title: "CEO at Constructive Works",
-        companyLogo: "./assets/images/png/us.png",
-        videoThumbnail: "/assets/images/png/men-two-image.webp",
+        id: 4,
+        img: "./assets/images/svg/data.svg",
+        alt: "Disconnected Data",
+        title: "My marketing and sales data is disconnected",
+        description:
+            "Don't let leads slip through the cracks. Unify your sales and marketing efforts with Nutshell and MarketingCloudFX, to provide end-to-end reporting and analysis of your data.",
+        points: [
+            "Unify sales and marketing data",
+            "Prioritize leads with data-backed insights",
+            "Turn opportunities into closed deals",
+        ],
+    },
+];
+export const CLIENT_CARD = [
+    {
+        id: 1,
+        backgroundImage: "./assets/images/png/green-card.png",
+        buttonLabel: "Education Company",
+        buttonPosition: { top: "3%", left: "13%" },
+        logo: "./assets/images/svg/amber copy.svg",
+        logoAlt: "Amber-Book",
+        logoWidth: "131px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
+    },
+    {
+        id: 2,
+        backgroundImage: "./assets/images/png/light-green-card.png",
+        buttonLabel: "HVAC Marketing",
+        buttonPosition: { top: "5%", left: "15%" },
+        logo: "./assets/images/svg/farnwort.svg",
+        logoAlt: "Farnsworth",
+        logoWidth: "149.73px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
+    },
+    {
+        id: 3,
+        backgroundImage: "./assets/images/png/yellow-card.png",
+        logo: "./assets/images/svg/us.svg",
+        logoAlt: "US",
+        logoWidth: "49px",
+        description: "Driving digital revenue for over 1,000+ satisfied clients.",
+        subText: "Elevate your business with our top-tier services and tech.",
+        stats: [
+            { value: "80%", label: "Leads" },
+            { value: "2X", label: "Ad Leads" },
+            { value: "520%", label: "Web Traffic" },
+        ],
     },
 ];

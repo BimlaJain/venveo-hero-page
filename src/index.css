@@ -3,20 +3,50 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'TestSoehneSchmal';
-  src: url('./assets/fonts/MaisonNeue-Light.otf');
+  font-family: 'MaisonNeue';
+  src: url('../public/assets/fonts/MaisonNeue-Light.otf'); 
 }
 
 @font-face {
-  font-family: 'MaisonNeue';
-  src: url('./assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf');
+  font-family: 'TestSoehneSchmal';
+  src: url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf'); 
 }
 
-.sohne_schmal {
+@font-face {
+  font-family: 'MaisonNeueMono';
+  src: url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf');
+}
+.mainson-Neue{
   font-family: 'MaisonNeue', sans-serif;
 }
-
-.mainson_Neue {
+.mainson-Neue-Mono {
+  font-family: 'MaisonNeueMono', sans-serif;
+}
+.sohne-schmal {
   font-family: 'TestSoehneSchmal', sans-serif;
 }
+.swiper-button-next{
+ background: transparent !important;
+}
 
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: '' !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+content: '' !important;
+}
+.swiper-slide .layer {
+    opacity: 1;
+}
+
+.swiper-slide-active .layer {
+    opacity: 0;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    background-color: white !important;
+    border-radius: 0 !important;
+}

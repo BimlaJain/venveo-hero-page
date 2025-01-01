@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logo from '../assets/images/png/logo.png'
 import { NAV_LIST } from '../utils/helper'
-import RightArrow  from '../assets/images/svg/right-arrow.svg'
-import  SearchIcon  from '../assets/images/svg/search.svg'
 
 const Header = ({ myClass }) => {
     const [open, setOpen] = useState()
@@ -24,7 +21,7 @@ const Header = ({ myClass }) => {
         <div className='max-w-[1920px] mx-auto max-lg:pt-6 max-sm:pt-4 flex max-lg:items-center justify-between'>
             <div className=' max-w-max'>
                 <a href="#logo" className='relative z-10 '>
-                    <img src={logo} alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
+                    <img src="./assets/images/png/logo.png" alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
                 </a>
             </div>
             <div className={`flex items-center ${myClass} max-lg:hidden -mt-10 `}>
@@ -39,11 +36,11 @@ const Header = ({ myClass }) => {
                     ))}
                     <div>                        
                         <a href="">
-                            <img src={SearchIcon} alt="search-icon" className='group-hover:fill-blue transition-all duration-300 hover:scale-105' stroke='group-hover:stroke-blue transition-all duration-300' />
+                            <img src="./assets/images/svg/search.svg" alt="search-icon" className='group-hover:fill-blue transition-all duration-300 hover:scale-105' stroke='group-hover:stroke-blue transition-all duration-300' />
                         </a>
                     </div>
                 </div>
-                <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-blue right-arrow'>Let's Talk <img src={RightArrow} alt="right-arrow" /></button>
+                <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-blue right-arrow'>Let's Talk <img src="./assets/images/svg/right-arrow.svg" alt="right-arrow" /></button>
             </div>
             <div
                 className={`lg:hidden z-30 cursor-pointer pr-7`}
@@ -66,9 +63,9 @@ const Header = ({ myClass }) => {
                         </select>
                     ))}
                     <a href="">
-                        <img src={SearchIcon} alt="search-icon" className='group-hover:fill-blue transition-all duration-300' stroke='group-hover:stroke-blue transition-all duration-300' />
+                        <img src="./assets/images/svg/search.svg" alt="search-icon" className='group-hover:fill-blue transition-all duration-300' stroke='group-hover:stroke-blue transition-all duration-300' />
                     </a>
-                    <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-black hover:text-white right-arrow'>Let's Talk <img src={RightArrow} alt="right-arrow" /></button>
+                    <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-black hover:text-white right-arrow'>Let's Talk <img src="./assets/images/svg/right-arrow.svg" alt="right-arrow" /></button>
                 </div>
             </div>
         </div>
