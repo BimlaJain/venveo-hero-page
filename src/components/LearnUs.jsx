@@ -33,10 +33,10 @@ const LearnUs = () => {
                     <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
                         Guides
                     </p>
-                    <p className="font-light text-3xl leading-[30px] text-left font-maisonLight max-w-[325px] max-lg:text-2xl max-lg:max-w-[290px]">
+                    <p className="font-light text-3xl leading-[30px] text-left font-MaisonNeueLight max-w-[325px] max-lg:text-2xl max-lg:max-w-[290px]">
                         Marketing to Contractors and Installers:<span className="xl:block"></span> The Ultimate Guide
                     </p>
-                    <p className="text-xmd text-custom-xs font-normal leading-none text-left pt-4 font-maisonMono max-w-[315px]">
+                    <p className=" text-custom-xs font-normal leading-none text-left pt-4 mainson-Neue-Mono max-w-[315px]">
                         Understanding the process and maximize the opportunities
                     </p>
                     <a href="#" className="flex items-center pt-4 font-semibold text-custom-xs">

@@ -2,9 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'MaisonNeue';
+  src: url('../public/assets/fonts/MaisonNeue-Light.otf'); 
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+  font-family: 'TestSoehneSchmal';
+  src: url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.otf'); 
+}
 
+@font-face {
+  font-family: 'MaisonNeueMono';
+  src: url('../public/assets/fonts/Maison-Neue-Mono.ttf');
+}
 @font-face {
     font-family: "Sohne Schmal";
     src:url('../public/assets/fonts/TestSöhneSchmal-Dreiviertelfett.woff2') format("truetype");
@@ -35,21 +46,32 @@
      src: url('../public/assets/fonts/Maison-Neue-Book.ttf') format("truetype");
  }
 
- @font-face {
-     font-family: "MaisonNeueMono";
-     src: url('../public/assets/fonts/Maison-Neue-Mono.ttf') format("truetype");
- }
-
+ 
  @font-face {
      font-family: "MaisonNeueLight";
      src: url('../public/assets/fonts/MaisonNeue-Light.ttf') format("truetype");
  }
 
-body {
-    font-family: 'Maison Neue', sans-serif;
+.mainson-Neue{
+  font-family: 'MaisonNeue', sans-serif;
+}
+.mainson-Neue-Mono {
+  font-family: 'MaisonNeueMono', sans-serif;
+}
+.sohne-schmal {
+  font-family: 'TestSoehneSchmal', sans-serif;
 }
 .bg-actual{
   background-image: url("../public/assets/images/webp/actual-bg.webp");
+}
+.bg-marketing-one{
+  background-image: url("../public/assets/images/webp/mobile-read-one.webp");
+}
+.bg-marketing-two{
+  background-image: url("../public/assets/images/webp/mobile-read-two.webp");
+}
+.bg-marketing-three{
+  background-image: url("../public/assets/images/webp/mobile-read-three.webp");
 }
 .swiper-button-next{
  background: transparent !important;

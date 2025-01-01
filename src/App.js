@@ -7,6 +7,7 @@ import Competition from './components/Competition'
 import TabContent from './components/TabContent'
 import ActualResult from './components/ActualResult'
 import LearnUs from './components/LearnUs'
+import ReadMore from './components/ReadMore'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <Competition />
       <TabContent />
       <ActualResult />
-      <LearnUs/>
+      <LearnUs />
+      <ReadMore/>
 
     </div>
   )

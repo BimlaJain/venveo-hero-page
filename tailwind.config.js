@@ -18,7 +18,8 @@ module.exports = {
       colors: {
         "yellow": "#D2F038",
         "blue": "#097980",
-        "grey": "#9DC9CC"
+        "grey": "#9DC9CC",
+        "sky": "#00AFB5",
       },
       fontSize: {
         "custom-xs": "15px",
