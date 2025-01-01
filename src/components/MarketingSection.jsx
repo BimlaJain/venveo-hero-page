@@ -31,7 +31,7 @@ const MarketingSection = () => {
                                     <ul className="max-sm:ml-3">
                                         {card.points.map((point, index) => (
                                             <li key={index}
-                                                className="list-disc text-custom-xs font-semibold leading-5 text-left"> {point}</li>))}
+                                                className="list-disc  text-custom-xs font-semibold leading-5 text-left"> {point}</li>))}
                                     </ul>
                                     <a href="#"
                                         className="relative pt-[15px] inline-block font-semibold text-custom-xs text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green"

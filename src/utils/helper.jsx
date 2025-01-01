@@ -91,7 +91,7 @@ export const CLIENT_CARD = [
         backgroundImage: "./assets/images/png/green-card.png",
         buttonLabel: "Education Company",
         buttonPosition: { top: "3%", left: "13%" },
-        logo: "./assets/images/svg/amber copy.svg",
+        logo: "./assets/images/svg/amber.svg",
         logoAlt: "Amber-Book",
         logoWidth: "131px",
         description: "Driving digital revenue for over 1,000+ satisfied clients.",
@@ -133,3 +133,168 @@ export const CLIENT_CARD = [
         ],
     },
 ];
+export const ACTUAL_RESULTS = [
+    {
+        description: "Venveo helped us achieve growth beyond expectations with an excellent brand strategy.",
+        name: "Sarah Johnson",
+        title: "Marketing Director at BuildPro",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-two-image.webp",
+    },
+
+    {
+        description: "They are really aligned with how we are building the business from a strategic standpoint and from branding, messaging, and cultural standpoint.",
+        name: "Jon Vaughan",
+        title: "Regional VP-SE at US LBM",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-one-image.webp",
+    },
+
+    {
+        description: "Their innovative ideas and flawless execution drove our success to new heights.",
+        name: "Michael Lee",
+        title: "CEO at Constructive Works",
+        companyLogo: ".//assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-three-image.webp",
+    },
+
+    {
+        description: "Their innovative ideas and flawless execution drove our success to new heights.",
+        name: "Michael Lee",
+        title: "CEO at Constructive Works",
+        companyLogo: "./assets/images/webp/us.webp",
+        videoThumbnail: "./assets/images/webp/men-two-image.webp",
+    },
+];
+export const MARKETING_DATA = [
+    {
+        title: "multi-channel marketing",
+        subtitle: "How to Get Your Product into Lowe’s",
+        description: "Understanding the process and maximize the opportunities",
+        buttonText: "Read More",
+        bgImage: "bg-marketing-one",
+    },
+
+    {
+        title: "lead-gen",
+        subtitle: "Get Your Sales Team Ready for Digital Leads",
+        description:
+            "Unlock substantial business growth by enhancing collaboration skills and digital marketing expertise",
+        bgImage: "bg-marketing-two",
+        buttonText: "Read More",
+
+    },
+
+    {
+        title: "ecommerce",
+        subtitle: "How to Sell Building Materials Online",
+        description:
+            "Explore how selling building materials online opens up wider audiences, efficient sales, and insightful data.",
+        bgImage: "bg-marketing-three",
+        buttonText: "Read More",
+
+    },
+];
+
+export const MARKETING_MOBILE_DATA = [
+    {
+        title: "multi-channel marketing",
+        subtitle: "How to Get Your Product into Lowe’s",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-one",
+    },
+
+    {
+        title: "lead-gen",
+        subtitle: "Get Your Sales Team Ready for Digital Leads",
+        bgImage: "bg-marketing-mobile-two",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-two",
+    },
+
+    {
+        title: "ecommerce",
+        subtitle: "How to Sell Building Materials Online",
+        bgImage: "bg-marketing-mobile-three",
+        buttonText: "Read More",
+        bgImage: "bg-mobile-marketing-three",
+    },
+];
+export const FOOTER_DATA = [
+    {
+        title: "HOW WE HELP",
+        links: [
+            { text: "Drive More Awareness", href: "/" },
+            { text: "Get More Customers", href: "/" },
+            { text: "Build Your Brand", href: "/" },
+            { text: "Improve your reputation", href: "/" },
+            { text: "Track Results", href: "/" },
+        ],
+    },
+    {
+        title: "WHO WE HELP",
+        links: [
+            { text: "Digital Advertising", href: "/" },
+            { text: "Search Engine Ranking", href: "/" },
+            { text: "Content Marketing", href: "/" },
+            { text: "Programic Advertising", href: "/" },
+            { text: "Email Marketing", href: "/" },
+        ],
+    },
+    {
+        title: "WHY VENveo",
+        links: [
+            { text: "About Us", href: "/" },
+            { text: "Careers", href: "/" },
+            { text: "Growth Studies", href: "/" },
+            { text: "Testimonials", href: "/" },
+        ],
+    },
+    {
+        title: "RESOURCES",
+        links: [
+            { text: "Articles", href: "/" },
+            { text: "News", href: "/" },
+            { text: "Webinars", href: "/" },
+            { text: "EBooks", href: "/" },
+            { text: "Podcast", href: "/" },
+        ],
+    },
+];
+
+export const FOOTER_LIST = {
+    logo: {
+        src: "/assets/images/webp/footer-logo.webp",
+        alt: "footer-logo",
+        description: "Venveo is an award-winning digital marketing solutions provider.",
+        copyright: "©2024 Venveo",
+    },
+
+    visit: {
+        title: "VISIT",
+        address: "100 N Main Street\n#201\nBlacksburg, VA 24060",
+        link: "/",
+    },
+
+    contact: {
+        title: "CONTACT",
+        email: {
+            text: "info@venveo.com",
+            link: "mailto:info@venveo.com",
+        },
+        phone: {
+            text: "1 · 800 · 123 · 4567",
+            link: "/",
+        },
+    },
+
+    socialLinks: [
+        { name: "facebook", url: "https://facebook.com" },
+        { name: "instagram", url: "https://instagram.com" },
+        { name: "twitter", url: "https://twitter.com" },
+        { name: "linkedin", url: "https://linkedin.com" },
+        { name: "youtube", url: "https://youtube.com" },
+    ],
+
+    footerPolicies: ["All Rights Reserved", "Privacy Policy"],
+};

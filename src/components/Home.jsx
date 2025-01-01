@@ -9,7 +9,7 @@ const Home = () => {
             <div className="container relative">
                 <header className="text-center sm:mt-20 mt-14">
                     <h1
-                        className="lg:text-custom-sm md:text-custom-md text-5xl  text-white font-bold leading-custom-sm sohne_schmal uppercase max-w-[822px] mx-auto">
+                        className="lg:text-custom-sm md:text-custom-md text-5xl  text-white font-bold leading-custom-sm sohne-schmal uppercase max-w-[822px] mx-auto">
                         Make marketing a growth machine
                     </h1>
                     <img src="./assets/images/png/green-elipse.png" alt="green-ellipse" className='-mt-3 lg:pl-80 sm:pl-[140px] sm:block hidden' />
