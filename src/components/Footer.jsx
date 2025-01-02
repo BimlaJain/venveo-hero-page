@@ -41,7 +41,7 @@ function Footer() {
                             aria-label="Enter your website"
                             required />
                         <button
-                            className="text-white text-custom-xs text-nowrap leading-5 font-semibold text-center font-maisonDemi hover:text-green transition-all duration-500">
+                            className="text-yellow text-custom-xs text-nowrap leading-5 font-semibold text-center font-maisonDemi hover:text-green transition-all duration-500">
                             Get Started
                         </button>
                     </form>
