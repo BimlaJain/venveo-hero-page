@@ -4,8 +4,8 @@ const MarketingSection = () => {
 
     return (
         <div className="xl:pt-[132px] pt-24 relative max-xl:min-h-screen max-sm:pt-[65px]">
-            <img src="./assets/images/png/yellow-line.png" alt="Background"
-                className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none" />
+            <img src="./assets/images/webp/yellow-line.webp" alt="Background"
+                className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none max-sm:hidden" />
             <div className="container max-w-[1140px] mx-auto">
                 <p className="text-3xl font-light leading-8 text-center mainson-Neue"> Problems we solve.</p>
                 <h2 className="lg:text-custom-lg text-6xl font-bold !leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne-schmal">

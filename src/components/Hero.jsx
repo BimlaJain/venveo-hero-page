@@ -4,7 +4,7 @@ import Header from '../common/Header';
 
 const Home = () => {
     return (
-        <div className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px]' style={{ backgroundImage: `url(./assets/images/png/hero-bg.png)` }}>
+        <div className='bg-cover bg-no-repeat h-[869px] lg:bg-[100%_100%] max-sm:h-[539px] mx-w-[1440px]' style={{ backgroundImage: `url(./assets/images/webp/hero-bg.webp)` }}>
             <Header />
             <div className="container relative">
                 <header className="text-center sm:mt-20 mt-14">
@@ -12,7 +12,7 @@ const Home = () => {
                         className="lg:text-custom-sm md:text-custom-md text-6xl  text-white font-bold leading-custom-sm sohne-schmal uppercase max-w-[822px] mx-auto">
                         Make marketing a growth machine
                     </h1>
-                    <img src="./assets/images/png/green-elipse.png" alt="green-ellipse" className='mt-2 lg:pl-72 sm:pl-[140px] sm:block hidden' />
+                    <img src="./assets/images/webp/green-elipse.webp" alt="green-ellipse" className='mt-2 lg:pl-72 sm:pl-[140px] sm:block hidden' />
                     <p className="font-light md:text-2xl text-lg leading-snug text-white max-w-[652px] mx-auto mt-4 mainson_Neue">
                         We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get
                         a proposal now.
@@ -38,8 +38,8 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='absolute flex lg:justify-center max-sm:left-[6%] max-lg:left-[27%] max-xl:left-[3%] max-2xl:left-[8%] pb-10'>
-                    <img src="./assets/images/png/hero-card.png" alt="Hero card" className="lg:block hidden max-w-[924px] mx-auto" />
-                    <img src="./assets/images/png/hero-card1.png" alt="Hero card" className="lg:hidden block justify-center" />
+                    <img src="./assets/images/webp/hero-card.webp" alt="Hero card" className="lg:block hidden max-w-[924px] mx-auto" />
+                    <img src="./assets/images/webp/hero-card1.webp" alt="Hero card" className="lg:hidden block justify-center" />
                 </div>
             </div>
         </div>

@@ -25,11 +25,11 @@ export const NAV_LIST = [
     },
 ]
 export const ICON_IMAGES = [
-    '../assets/images/png/wsj-img.png',
-    '../assets/images/png/entrepreneur.png',
-    '../assets/images/png/fortune.png',
-    '../assets/images/png/forbes.png',
-    '../assets/images/png/inc.png'
+    '../assets/images/webp/wsj-img.webp',
+    '../assets/images/webp/entrepreneur.webp',
+    '../assets/images/webp/fortune.webp',
+    '../assets/images/webp/forbes.webp',
+    '../assets/images/webp/inc.webp'
 ];
 export const CARD_LIST = [
     {
@@ -88,7 +88,7 @@ export const CARD_LIST = [
 export const CLIENT_CARD = [
     {
         id: 1,
-        backgroundImage: "./assets/images/png/green-card.png",
+        backgroundImage: "./assets/images/webp/green-card.webp",
         buttonLabel: "Education Company",
         buttonPosition: { top: "3%", left: "13%" },
         logo: "./assets/images/svg/amber.svg",
@@ -104,7 +104,7 @@ export const CLIENT_CARD = [
     },
     {
         id: 2,
-        backgroundImage: "./assets/images/png/light-green-card.png",
+        backgroundImage: "./assets/images/webp/light-green-card.webp",
         buttonLabel: "HVAC Marketing",
         buttonPosition: { top: "5%", left: "15%" },
         logo: "./assets/images/svg/farnwort.svg",
@@ -120,7 +120,7 @@ export const CLIENT_CARD = [
     },
     {
         id: 3,
-        backgroundImage: "./assets/images/png/yellow-card.png",
+        backgroundImage: "./assets/images/webp/yellow-card.webp",
         logo: "./assets/images/svg/us.svg",
         logoAlt: "US",
         logoWidth: "49px",

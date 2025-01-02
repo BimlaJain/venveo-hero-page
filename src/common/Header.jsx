@@ -21,7 +21,7 @@ const Header = ({ myClass }) => {
         <div className='max-w-[1920px] mx-auto max-lg:pt-6 max-sm:pt-4 flex max-lg:items-center justify-between'>
             <div className=' max-w-max'>
                 <a href="#logo" className='relative z-10 '>
-                    <img src="./assets/images/png/logo.png" alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
+                    <img src="./assets/images/webp/logo.webp" alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
                 </a>
             </div>
             <div className={`flex items-center ${myClass} max-lg:hidden -mt-10 `}>
