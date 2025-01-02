@@ -6,7 +6,7 @@ const Competition = () => {
             <img
                 src="/assets/images/svg/analize.svg"
                 alt="img"
-                className="absolute xl:left-[43rem] lg:left-[28rem] max-lg:hidden xl:top-[6rem] lg:top-[8rem] top-[11rem] sm:left-[26rem] left-[4rem] sm:top-[8rem]"
+                className="absolute 2xl:left-[180rem] xl:left-[43rem] lg:left-[28rem] max-lg:hidden xl:top-[6rem] lg:top-[8rem] top-[11rem] sm:left-[26rem] left-[4rem] sm:top-[8rem]"
             />
             <div className="container">
                 <div className="md:flex justify-between max-lg:flex-col">
