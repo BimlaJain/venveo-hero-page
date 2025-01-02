@@ -51,17 +51,17 @@ const Tab = ({ activeTab }) => {
             );
         case "tab3":
             return (
-                <div style={{ backgroundImage: `url(./assets/images/webp/tab-three-bg.webp)` }} className="max-w-[1280px] px-[79px] pt-[75px] max-lg:pt-[45px] h-[720px] max-xl:h-[620px] max-lg:h-[720px] max-md:px-[32px]">
+                <div style={{ backgroundImage: `url(./assets/images/webp/tab-three-bg.webp)` }} className="max-w-[1280px] px-[79px] pt-[75px] max-lg:py-[45px] h-[720px] max-xl:h-[620px]  max-lg:h-full max-md:px-[32px]">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-5/12">
-                            <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] font-sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
+                            <h2 className="text-custom-7xl max-md:text-4xl leading-[70px] font-sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
                                 Project Radar </h2>
                             <img src="./assets/images/webp/tab-logo.webp" alt="Tab Logo" className=" max-w-[72.86px] pointer-events-none" />
                             <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px] font-maisonLight">
                                 Lorem ipsum what this product actually does. </p>
                             <p className="text-white text-custom-xs font-normal leading-5 max-w-[360px] max-xl:max-w-none font-maisonMono">This is placeholder but can add more the business of building, some epic fails (and how to avoid them) and everything building science.</p>
                             <div className="flex mt-16 max-sm:mt-7 max-lg:pb-14">
-                                <a href="#" className="bg-yellow text-custom-xs font-semibold text-center py-8 px-8 flex gap-[10px] pointer-events-none">
+                                <a href="#" className="bg-yellow text-custom-xs font-semibold text-center sm:p-8 p-4  flex gap-[10px] pointer-events-none">
                                     Call to Action Somewhere<img src="./assets/images/svg/call-arrow.svg" alt="arrow" /></a>
                             </div>
                         </div>
