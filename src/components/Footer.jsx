@@ -10,11 +10,11 @@ function Footer() {
                 {FOOTER_DATA.map((obj, index) => (
                     <div
                         key={index}
-                        className={`max-xl:pb-14 max-w-[169px] ${index === 3 ? 'xl:-ml-[75px]' : ''
+                        className={`max-xl:pb-14 max-sm:pb-4 max-w-[169px] ${index === 3 ? 'xl:-ml-[75px]' : ''
                             }`}
                     >
                         <ul className="space-y-2">
-                            <li className="font-medium text-xs leading-custom-md pb-[25px] uppercase">
+                            <li className="font-medium text-xs leading-custom-md pb-4 uppercase">
                                 {obj.title}
                             </li>
                             {obj.links.map((link, linkIndex) => (

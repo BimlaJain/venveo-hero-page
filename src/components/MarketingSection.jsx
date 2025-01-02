@@ -8,7 +8,7 @@ const MarketingSection = () => {
                 className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none" />
             <div className="container max-w-[1140px] mx-auto">
                 <p className="text-3xl font-light leading-8 text-center mainson-Neue"> Problems we solve.</p>
-                <h2 className="lg:text-custom-lg sm:text-5xl text-custom-2xl font-bold leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne-schmal">
+                <h2 className="lg:text-custom-lg text-6xl font-bold !leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne-schmal">
                     Digital Marketing for today's Business</h2>
                 <p className="text-custom-xs font-normal leading-5 text-center max-w-[641px] mx-auto pt-[22px] max-sm:pt-5 lg:pb-20 pb-14 mainson-Neue-Mono">
                     We help companies scale their strategies across multiple channels to
@@ -17,7 +17,7 @@ const MarketingSection = () => {
                 <div className="lg:flex flex-wrap">
                     {CARD_LIST.map((card) => (
                         <div key={card.id}
-                            className="lg:w-6/12 w-full pb-14 max-lg:pb-8 flex justify-center">
+                            className="lg:w-6/12 w-full pb-12 max-lg:pb-8 flex justify-center">
                             <div className="flex border-2 max-w-[503px] max-xl:max-w-[447px] max-sm:p-[30px] border-sky rounded-[25px] pt-[65px] pl-[30px] pr-[60px] pb-[54px] max-sm:pt-[34px] max-sm:pb-[36px] max-sm:px-[31px] relative z-10 bg-white md:gap-6">
                                 <img src={card.img} alt={card.atl}
                                     className="h-[53px] w-[53px] md:block hidden pointer-events-none" />

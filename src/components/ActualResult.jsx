@@ -11,7 +11,7 @@ const ActualResult = () => {
             <p className="max-sm:px-4 font-light text-3xl leading-[70px] text-white text-center font-maisonLight">
                 Actual businesses.
             </p>
-            <h2 className='font-bold sohne-schmal g:text-custom-lg sm:text-5xl text-custom-2xl uppercase text-center leading-[70px]'>Actual results.</h2>
+            <h2 className='font-bold sohne-schmal lg:text-custom-lg text-6xl uppercase text-center leading-[70px]'>Actual results.</h2>
             <p className="sm:mt-[46px] mt-[22px] max-sm:px-4 md:mb-[81px] mb-[39px] text-custom-xs leading-5 font-normal text-center mainson-Neue-Mono">
                 Businesses trust Venveo to power growth.
             </p>

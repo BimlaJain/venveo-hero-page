@@ -2,14 +2,14 @@ import React from "react";
 
 const LearnUs = () => {
     return (
-        <div className="relative sm:pt-20 pt-8 pb-[29px]">
+        <div className="relative sm:pt-20 lg:pt-[116px] pt-8 pb-[29px]">
             <img
                 src="./assets/images/webp/digital-bg.webp"
                 alt="Background"
                 className="absolute top-[40%] max-sm:hidden block w-full"
             />
             <div className="max-md:container max-w-[1322px] !mx-auto">
-                <h2 className="g:text-custom-lg sm:text-5xl text-custom-2xl font-bold leading-none text-center uppercase sohne-schmal pb-[13px]">
+                <h2 className="lg:text-custom-lg text-6xl font-bold leading-none text-center uppercase sohne-schmal pb-[13px]">
                     Learn from us.
                 </h2>
                 <p className="text-custom-xs font-normal leading-none text-center sm:pb-9 pb-[33px] mainson-Neue-Mono">
@@ -17,7 +17,7 @@ const LearnUs = () => {
                 </p>
                 <a
                     href="#"
-                    className="text-xmd font-semibold leading-none text-center flex justify-center lg:pb-20 pb-10 mainson_Neue"
+                    className="text-xmd font-semibold leading-none text-center flex justify-center lg:pb-16 pb-10 mainson_Neue"
                 >
                     See All
                     <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
@@ -34,7 +34,7 @@ const LearnUs = () => {
                         <p className="text-custom-xs font-semibold leading-none text-left text-sky pb-4 mainson_Neue uppercase">
                             Guides
                         </p>
-                        <p className="font-light text-3xl leading-[30px] text-left font-MaisonNeueLight max-w-[325px] max-lg:text-2xl max-lg:max-w-[290px]">
+                        <p className="font-light text-3xl leading-[30px] text-left font-MaisonNeueLight max-w-[310px] max-lg:text-2xl max-lg:max-w-[290px]">
                             Marketing to Contractors and Installers:<span className="xl:block"></span> The Ultimate Guide
                         </p>
                         <p className=" text-custom-xs font-normal leading-none text-left pt-4 mainson-Neue-Mono max-w-[315px]">

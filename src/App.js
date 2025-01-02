@@ -1,5 +1,5 @@
 import React from 'react'
-import Home from './components/Home'
+import Hero from './components/Hero'
 import Features from './components/Features'
 import SatisfiedClient from './components/SatisfiedClient'
 import MarketingSection from './components/MarketingSection'
@@ -14,7 +14,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
-      <Home />
+      <Hero />
       <Features />
       <SatisfiedClient />
       <MarketingSection />

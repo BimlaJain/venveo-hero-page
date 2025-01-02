@@ -9,10 +9,10 @@ const Home = () => {
             <div className="container relative">
                 <header className="text-center sm:mt-20 mt-14">
                     <h1
-                        className="lg:text-custom-sm md:text-custom-md text-5xl  text-white font-bold leading-custom-sm sohne-schmal uppercase max-w-[822px] mx-auto">
+                        className="lg:text-custom-sm md:text-custom-md text-6xl  text-white font-bold leading-custom-sm sohne-schmal uppercase max-w-[822px] mx-auto">
                         Make marketing a growth machine
                     </h1>
-                    <img src="./assets/images/png/green-elipse.png" alt="green-ellipse" className='-mt-3 lg:pl-80 sm:pl-[140px] sm:block hidden' />
+                    <img src="./assets/images/png/green-elipse.png" alt="green-ellipse" className='mt-2 lg:pl-72 sm:pl-[140px] sm:block hidden' />
                     <p className="font-light md:text-2xl text-lg leading-snug text-white max-w-[652px] mx-auto mt-4 mainson_Neue">
                         We focus on results. Not just chatter. Elevate your business with our top-tier services and tech. Get
                         a proposal now.

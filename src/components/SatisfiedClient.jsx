@@ -8,7 +8,7 @@ const Client = () => {
                 <h2 className="text-3xl max-sm:text-2xl text-center leading-8 lg:pt-24  md:pt-20 pt-9 mainson-Neue">
                     Driving digital revenue for over
                 </h2>
-                <h2 className="text-custom-lg max-md:text-custom-2xl text-center leading-[70px] font-bold pt-2 sohne-schmal uppercase pb-12">
+                <h2 className="lg:text-custom-lg text-6xl text-center leading-[70px] font-bold pt-2 sohne-schmal uppercase pb-12">
                     1,400+ satisfied clients.
                 </h2>
 
@@ -33,7 +33,7 @@ const Client = () => {
                                         <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /> </svg>
                                 </a>
                             </div>
-                            <div className="flex gap-9 pt-3 pb-8 pl-4">
+                            <div className="flex gap-12 pt-3 pb-8 pl-4">
                                 {card.stats.map((stat, index) => (
                                     <div key={index}>
                                         <p className="text-black leading-10 text-custom-xl max-sm:text-3xl font-bold sohne-schmal"> {stat.value}
