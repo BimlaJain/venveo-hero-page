@@ -8,7 +8,7 @@ const MarketingSection = () => {
                 className="absolute top-[32rem] max-lg:top-[28rem] max-sm:top-[23rem] w-full pointer-events-none" />
             <div className="container max-w-[1140px] mx-auto">
                 <p className="text-3xl font-light leading-8 text-center mainson-Neue"> Problems we solve.</p>
-                <h2 className="text-custom-lg font-bold leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne-schmal">
+                <h2 className="lg:text-custom-lg sm:text-5xl text-custom-2xl font-bold leading-[70px] max-w-[554px] max-sm:text-custom-5xl max-sm:leading-[52px] text-center mx-auto pt-[5px] uppercase sohne-schmal">
                     Digital Marketing for today's Business</h2>
                 <p className="text-custom-xs font-normal leading-5 text-center max-w-[641px] mx-auto pt-[22px] max-sm:pt-5 lg:pb-20 pb-14 mainson-Neue-Mono">
                     We help companies scale their strategies across multiple channels to

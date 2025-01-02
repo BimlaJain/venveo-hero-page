@@ -9,7 +9,7 @@ const LearnUs = () => {
                 className="absolute top-[40%] max-sm:hidden block"
             />
             <div className="max-md:container max-w-[1322px] !mx-auto">
-                <h2 className="text-custom-lg font-bold leading-none text-center uppercase sohne-schmal pb-[13px] max-md:text-6xl">
+                <h2 className="g:text-custom-lg sm:text-5xl text-custom-2xl font-bold leading-none text-center uppercase sohne-schmal pb-[13px]">
                     Learn from us.
                 </h2>
                 <p className="text-custom-xs font-normal leading-none text-center sm:pb-9 pb-[33px] mainson-Neue-Mono">

@@ -15,6 +15,17 @@ module.exports = {
           xl: "1140px",
         },
       },
+      fontFamily: {
+        'maisonLight': "'MaisonNeueLight',sans-serif",
+        'maisonMedium': "'MaisonNeueMedium',sans-serif",
+        'maisonDemi': "'MaisonNeueDemi',sans-serif",
+        'maisonMono': "'MaisonNeueMono',sans-serif",
+      },
+      backgroundImage: {
+        'mobile-marketing-one': "url('/public/assets/images/webp/mobile-read-one.webp')",
+        'mobile-marketing-two': "url('/public/assets/images/webp/mobile-read-two.webp')",
+        'mobile-marketing-three': "url('/public/assets/images/webp/mobile-read-three.webp')",
+      },
       colors: {
         "yellow": "#D2F038",
         "blue": "#097980",
@@ -28,12 +39,11 @@ module.exports = {
         "custom-lg": "80px",
         "custom-xl": "50px",
         "custom-2xl": "40px",
-
-        
       },
       lineHeight: {
         "custom-sm": "92%",
-      }
+      },
+      
     },
   },
   plugins: [],

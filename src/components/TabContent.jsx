@@ -82,7 +82,7 @@ const TabsComponent = () => {
     return (
         <section className="py-14 flex justify-center">
             <div className="container max-w-[1280px] mx-auto">
-                <h2 className="text-custom-lg font-bold text-center uppercase sohne-schmal leading-[70px] max-sm:text-6xl">The Growth Partner</h2>
+                <h2 className="g:text-custom-lg sm:text-5xl text-custom-2xl font-bold text-center uppercase sohne-schmal leading-[70px] ">The Growth Partner</h2>
                 <p className="text-3xl font-light text-center pb-[43px] max-sm:pb-[19px] max-sm:text-2xl font-maisonLight">you’ve been looking for.</p>
                 <p className="text-custom-xs font-normal text-center pb-[105px] max-sm:pb-[56px] mainson-Neue-Mono">Businesses trust Venveo to power growth.</p>
                 <div className="nav-tabs">

@@ -8,7 +8,7 @@ const Client = () => {
                 <h2 className="text-3xl max-sm:text-2xl text-center leading-8 lg:pt-24  md:pt-20 pt-9 mainson-Neue">
                     Driving digital revenue for over
                 </h2>
-                <h2 className="text-custom-lg max-md:text-5xl text-center leading-[70px] font-bold pt-2 sohne-schmal uppercase pb-12">
+                <h2 className="text-custom-lg max-md:text-custom-2xl text-center leading-[70px] font-bold pt-2 sohne-schmal uppercase pb-12">
                     1,400+ satisfied clients.
                 </h2>
 

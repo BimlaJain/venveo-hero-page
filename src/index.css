@@ -73,6 +73,9 @@
 .bg-marketing-three{
   background-image: url("../public/assets/images/webp/mobile-read-three.webp");
 }
+.bg-ready{
+  background-image: url("../public/assets/images/webp/ready-bg.webp");
+}
 .swiper-button-next{
  background: transparent !important;
 }

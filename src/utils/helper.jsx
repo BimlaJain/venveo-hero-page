@@ -154,7 +154,7 @@ export const ACTUAL_RESULTS = [
         description: "Their innovative ideas and flawless execution drove our success to new heights.",
         name: "Michael Lee",
         title: "CEO at Constructive Works",
-        companyLogo: ".//assets/images/webp/us.webp",
+        companyLogo: "./assets/images/webp/us.webp",
         videoThumbnail: "./assets/images/webp/men-three-image.webp",
     },
 

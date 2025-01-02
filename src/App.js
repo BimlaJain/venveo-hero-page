@@ -8,6 +8,8 @@ import TabContent from './components/TabContent'
 import ActualResult from './components/ActualResult'
 import LearnUs from './components/LearnUs'
 import ReadMore from './components/ReadMore'
+import Ready from './components/Ready'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -20,7 +22,9 @@ const App = () => {
       <TabContent />
       <ActualResult />
       <LearnUs />
-      <ReadMore/>
+      <ReadMore />
+      <Ready />
+      <Footer/>
 
     </div>
   )
