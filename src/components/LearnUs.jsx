@@ -40,9 +40,9 @@ const LearnUs = () => {
                         <p className=" text-custom-xs font-normal leading-none text-left pt-4 mainson-Neue-Mono max-w-[315px]">
                             Understanding the process and maximize the opportunities
                         </p>
-                        <a href="#" className="flex items-center pt-4 font-semibold text-custom-xs">
+                        <a href="#" className="flex items-center pt-4 group font-semibold text-custom-xs">
                             Read More
-                            <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
+                            <img className="ml-2 group-hover:ml-5  mt-1 transition-all duration-700 ease-in-out" src="./assets/images/svg/read-arrow.svg" alt="arrow"  />
                         </a>
                     </div>
                 </div>

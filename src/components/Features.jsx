@@ -57,7 +57,7 @@ const Features = () => {
                     ))}
                 </div>
             </div>
-            <img src="./assets/images/png/green-line.png" alt="line image" className="mx-auto w-full" />
+            <img src="./assets/images/webp/green-line.webp" alt="line image" className="mx-auto w-full" />
         </div>
     );
 };

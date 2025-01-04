@@ -21,7 +21,7 @@ const ReadMore = () => {
                                     {data.description}
                                 </p>
                                 <button
-                                    className={`font-semibold text-custom-xs leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group ${index === 0
+                                    className={`font-semibold text-custom-xs group leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group ${index === 0
                                         ? "sm:pt-[81px] pt-8"
                                         : index === 1
                                             ? "sm:pt-[46px] pt-8"
@@ -30,7 +30,7 @@ const ReadMore = () => {
                                                 : "sm:pt-[42px] pt-8"
                                         }`}>
                                     {data.buttonText}
-                                    <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
+                                    <img className="ml-2 group-hover:ml-5 mt-1 transition-all duration-700 ease-in-out" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                                 </button>
                             </div>
                         </div>
@@ -51,9 +51,9 @@ const ReadMore = () => {
                                 <p className="text-black text-2xl max-w-[201px] leading-[26px] font-maisonLight font-light pb-[19px]">
                                     {data.subtitle}
                                 </p>
-                                <button className="font-semibold text-custom-xs leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group">
+                                <button className="font-semibold text-custom-xs group leading-5 text-nowrap max-w-[164px] flex gap-[6px] items-center transition-all duration-500 group">
                                     {data.buttonText}
-                                    <img className="ml-2" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
+                                    <img className="ml-2 group-hover:ml-5  mt-1 transition-all duration-700 ease-in-out" src="./assets/images/svg/read-arrow.svg" alt="arrow" />
                                 </button>
                             </div>
                         </div>

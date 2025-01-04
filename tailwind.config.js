@@ -16,6 +16,7 @@ module.exports = {
         },
       },
       fontFamily: {
+        "sohne": "'Sohne Schmal', sans-serif",
         'maisonLight': "'MaisonNeueLight',sans-serif",
         'maisonMedium': "'MaisonNeueMedium',sans-serif",
         'maisonDemi': "'MaisonNeueDemi',sans-serif",

@@ -10,6 +10,7 @@ import LearnUs from './components/LearnUs'
 import ReadMore from './components/ReadMore'
 import Ready from './components/Ready'
 import Footer from './components/Footer'
+import BackToTop from './common/BackToTop'
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       <LearnUs />
       <ReadMore />
       <Ready />
-      <Footer/>
+      <Footer />
+      <BackToTop/>
 
     </div>
   )

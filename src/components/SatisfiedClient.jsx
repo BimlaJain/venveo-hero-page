@@ -26,9 +26,9 @@ const Client = () => {
                                     style={{ maxWidth: card.logoWidth }} />
                                 <p className="max-w-[325px] text-3xl py-6 font-light max-sm:text-2xl "> {card.description} </p>
                                 <p className="text-custom-xs max-w-[315px] leading-5 font-normal mainson-Neue-Mono"> {card.subText}</p>
-                                <a href="#" className="relative pt-[56px] inline-block font-semibold text-custom-xs
-                                 text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green" >Learn More
-                                    <svg className="ml-2 hover:fill-green transition-all duration-300 inline-block"
+                                <a href="#" className="relative flex pt-[56px] items-center  font-semibold text-custom-xs
+                                 text-black pb-0.5 group" >Learn More
+                                    <svg className="group-hover:ml-5 ml-3 mt-1 transition-all duration-700 ease-in-out"
                                         width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                         <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /> </svg>
                                 </a>
@@ -36,7 +36,7 @@ const Client = () => {
                             <div className="flex gap-12 pt-3 pb-8 pl-4">
                                 {card.stats.map((stat, index) => (
                                     <div key={index}>
-                                        <p className="text-black leading-10 text-custom-xl max-sm:text-3xl font-bold sohne-schmal"> {stat.value}
+                                        <p className="text-black leading-10 text-custom-xl max-sm:text-3xl font-bold font-sohne"> {stat.value}
                                         </p>
                                         <p className="text-black leading-4 text-custom-xs pt-1 whitespace-nowrap font-medium">
                                             {stat.label} </p>

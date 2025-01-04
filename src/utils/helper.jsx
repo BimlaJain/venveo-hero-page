@@ -1,29 +1,41 @@
-export const NAV_LIST = [
+export const HEADER_LIST = [
     {
-        title: "How We Help",
-        optionOne: "Object 1",
-        optionTwo: "Object 2",
-        optionThree: "Object 3",
+        url: '/',
+        name: 'How We Help ▼',
+        subMenu: [
+            "link 1",
+            "link 2",
+            "link 3",
+        ]
     },
     {
-        title: "Who We Help",
-        optionOne: "Object 1",
-        optionTwo: "Object 2",
-        optionThree: "Object 3",
+        url: '/',
+        name: 'Who We Help ▼',
+        subMenu: [
+            "link 1",
+            "link 2",
+            "link 3",
+        ]
     },
     {
-        title: "Why Venveo",
-        optionOne: "Object 1",
-        optionTwo: "Object 2",
-        optionThree: "Object 3",
+        url: '/',
+        name: 'Why Venveo ▼',
+        subMenu: [
+            "link 1",
+            "link 2",
+            "link 3",
+        ]
     },
     {
-        title: "Resources",
-        optionOne: "Object 1",
-        optionTwo: "Object 2",
-        optionThree: "Object 3",
+        url: '/',
+        name: 'Resources ▼',
+        subMenu: [
+            "link 1",
+            "link 2",
+            "link 3",
+        ]
     },
-]
+];
 export const ICON_IMAGES = [
     '../assets/images/webp/wsj-img.webp',
     '../assets/images/webp/entrepreneur.webp',
@@ -298,3 +310,8 @@ export const FOOTER_LIST = {
 
     footerPolicies: ["All Rights Reserved", "Privacy Policy"],
 };
+export const TABS_ITEMS = [
+    { id: "industry", label: "Industry Expertise" },
+    { id: "roi", label: "ROI Focused" },
+    { id: "proprietary", label: "Proprietary Technology" },
+];

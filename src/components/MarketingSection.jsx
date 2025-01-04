@@ -34,9 +34,9 @@ const MarketingSection = () => {
                                                 className="list-disc  text-custom-xs font-semibold leading-5 text-left"> {point}</li>))}
                                     </ul>
                                     <a href="#"
-                                        className="relative pt-[15px] inline-block font-semibold text-custom-xs text-black pb-0.5 after:absolute after:left-0 after:w-0 after:transition-all after:duration-300 hover:after:w-full after:bottom-0 after:h-0.5 after:bg-green"
+                                        className="relative font-semibold text-custom-xs text-black pb-0.5 group flex items-center pt-[15px]"
                                     > Explore SEO Services
-                                        <svg className="ml-2 hover:fill-green transition-all duration-300 inline-block"
+                                        <svg className="group-hover:ml-5 ml-3 mt-1 transition-all duration-700 ease-in-out"
                                             width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M10 5.00343L0 0V10L10 5.00343Z" className="fill-current" /></svg>
                                     </a>

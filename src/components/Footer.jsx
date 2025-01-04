@@ -18,7 +18,7 @@ function Footer() {
                                 {obj.title}
                             </li>
                             {obj.links.map((link, linkIndex) => (
-                                <li key={linkIndex} className="font-maisonLight text-custom-xs text-nowrap leading-custom-6xl">
+                                <li key={linkIndex} className="font-maisonLight hover:text-yellow text-custom-xs text-nowrap leading-custom-6xl">
                                     <a
                                         className="relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500"
                                         href={link.href}
@@ -76,13 +76,13 @@ function Footer() {
                         <a
                             target="_blank"
                             href={contact.email.link}
-                            className="text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+                            className="text-custom-sx leading-5 hover:text-yellow">
                             {contact.email.text}
                         </a>
                         <a
                             target="_blank"
                             href={contact.phone.link}
-                            className="pt-[21px] text-custom-sx leading-5 relative after:absolute hover:after:bg-green hover:after:left-0 after:w-0 hover:after:w-full hover:after:h-[1px] after:left-0 hover:after:bottom-[-3px] after:ease-in-out after:duration-500">
+                            className="pt-[21px] text-custom-sx leading-5 hover:text-yellow">
                             {contact.phone.text}
                         </a>
                     </div>

@@ -1,75 +1,112 @@
-import React, { useState, useEffect } from 'react'
-import { NAV_LIST } from '../utils/helper'
+import React, { useEffect, useState } from "react";
+import { HEADER_LIST } from "../utils/helper";
 
-const Header = ({ myClass }) => {
-    const [open, setOpen] = useState()
+const Header = () => {
+    const [activeIndex, setActiveIndex] = useState(null);
+    const [open, setOpen] = useState(false);
+
+    const handleClick = (index) => {
+        setActiveIndex((prevIndex) => (prevIndex === index ? null : index));
+    };
+
+    const toggleSidebar = () => {
+        setOpen(!open);
+        setActiveIndex(null);
+    };
+
     useEffect(() => {
-        const handleOverflow = () => {
-            if (open && window.innerWidth < 770) {
+        const handleBodyOverflow = () => {
+            if (open && window.innerWidth < 1024) {
                 document.body.classList.add("overflow-hidden");
             } else {
                 document.body.classList.remove("overflow-hidden");
             }
         };
-        handleOverflow();
-        window.addEventListener("resize", handleOverflow);
+
+        handleBodyOverflow();
+        window.addEventListener("resize", handleBodyOverflow);
         return () => {
-            window.removeEventListener("resize", handleOverflow);
+            window.removeEventListener("resize", handleBodyOverflow);
         };
     }, [open]);
-    return (
-        <div className='max-w-[1920px] mx-auto max-lg:pt-6 max-sm:pt-4 flex max-lg:items-center justify-between'>
-            <div className=' max-w-max'>
-                <a href="#logo" className='relative z-10 '>
-                    <img src="./assets/images/webp/logo.webp" alt="venveo-logo" className='h-[90px] max-md:h-14 max-sm:h-16 mt-[30px] ml-8' />
-                </a>
-            </div>
-            <div className={`flex items-center ${myClass} max-lg:hidden -mt-10 `}>
-                <div className='bg-white relative z-10 py-7 max-lg:py-4 flex item-center gap-[42px] max-lg:gap-5 max-lg:px-6 pl-[41.79px] pr-[29.5px]'>
-                    {NAV_LIST.map((obj, i) => (
-                        <select key={i} name="venveo" id="myLink" className='cursor-pointer text-[15px] leading-[15px] text-black font-maisonMedium outline-none '>
-                            <option value={obj.title}>{obj.title}</option>
-                            <option value={obj.OptionOne}>{obj.OptionOne}</option>
-                            <option value={obj.OptionTwo}>{obj.OptionTwo}</option>
-                            <option value={obj.OptionThree}>{obj.OptionThree}</option>
-                        </select>
-                    ))}
-                    <div>                        
-                        <a href="">
-                            <img src="./assets/images/svg/search.svg" alt="search-icon" className='group-hover:fill-blue transition-all duration-300 hover:scale-105' stroke='group-hover:stroke-blue transition-all duration-300' />
-                        </a>
-                    </div>
-                </div>
-                <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-blue right-arrow'>Let's Talk <img src="./assets/images/svg/right-arrow.svg" alt="right-arrow" /></button>
-            </div>
-            <div
-                className={`lg:hidden z-30 cursor-pointer pr-7`}
-                onClick={() => setOpen(!open)}
-            >
-                <div className={`flex flex-col gap-3 items-center ${open ? "!gap-0 transition-all duration-500" : "transition-all duration-500"}`}>
-                    <div className={`h-[2px] bg-white w-8 transition-all duration-300 rounded-lg ${open ? "rotate-[50deg] origin-center" : ""} `}></div>
-                    <div className={`h-[2px] bg-white w-8 transition-all duration-300 rounded-lg ${open ? "-rotate-[53deg] origin-center" : ""} `}></div>
-                </div>
-            </div>
-            <div className={`w-full h-full bg-blue transition-all duration-500 left-0 lg:-top-full z-20 fixed flex flex-col items-center justify-center ${open ? "top-0 left-0" : "-top-full"
-                }`}>
-                <div className=' relative z-10 flex flex-col item-center justify-center items-center text-center gap-7'>
-                    {NAV_LIST.map((obj, i) => (
-                        <select key={i} name="venveo" id="myLink" className='custom-select cursor-pointer text-[15px] text-white leading-[15px] font-maisonMedium outline-none max-lg:mx-auto bg-transparent'>
-                            <option value={obj.title}>{obj.title}</option>
-                            <option value={obj.OptionOne}>{obj.OptionOne}</option>
-                            <option value={obj.OptionTwo}>{obj.OptionTwo}</option>
-                            <option value={obj.OptionThree}>{obj.OptionThree}</option>
-                        </select>
-                    ))}
-                    <a href="">
-                        <img src="./assets/images/svg/search.svg" alt="search-icon" className='group-hover:fill-blue transition-all duration-300' stroke='group-hover:stroke-blue transition-all duration-300' />
-                    </a>
-                    <button className='flex items-center max-lg:py-[20.5px] py-[32.5px] px-[31.63px] bg-yellow gap-[5px] text-[15px] font-maisonDemi leading-[15px] font-semibold transition-all duration-300 hover:bg-black hover:text-white right-arrow'>Let's Talk <img src="./assets/images/svg/right-arrow.svg" alt="right-arrow" /></button>
-                </div>
-            </div>
-        </div>
-    )
-}
 
-export default Header
+    return (
+        <div className="max-w-[1920px] mx-auto relative z-10">
+            <nav className="flex justify-between lg:items-start items-center pl-6 max-lg:px-4">
+                <a href="/" className="pt-[30px] max-xl:pt-4">
+                    <img src="./assets/images/webp/logo.webp" alt="logo" />
+                </a>
+                <div className="flex">
+                    <div
+                        className={`flex gap-[42px] max-lg:fixed max-lg:left-0 max-lg:h-full max-lg:w-full max-lg:flex-col lg:bg-white lg:py-7 px-10 max-lg:bg-gray-800 max-lg:duration-300 max-lg:justify-center max-lg:items-center z-10 max-lg:text-white ${open ? "max-lg:top-0" : "max-lg:top-full"
+                            }`}
+                    >
+                        {HEADER_LIST.map((item, index) => (
+                            <div key={index} className="relative">
+                                <button
+                                    onClick={() => handleClick(index)}
+                                    className="hover:text-gray-600 transition-colors relative z-[51] duration-200 focus:outline-none font-maisonMedium"
+                                >
+                                    {item.name}
+                                </button>
+                                {item.subMenu && activeIndex === index && (
+                                    <div className="absolute left-0 mt-2 w-48 z-[52] bg-white text-gray-800 rounded shadow-lg">
+                                        {item.subMenu.map((subItem, subIndex) => (
+                                            <a href="#"
+                                                key={subIndex}
+                                                aria-label="click to learn more"
+                                                onClick={() => setActiveIndex(null)}
+                                                className="block px-4 py-2 hover:bg-gray-100 transition-colors duration-200 font-maisonMedium"
+                                            >
+                                                {subItem}
+                                            </a>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                        <div className="max-lg:hidden cursor-pointer hover:scale-110 duration-300 ease-linear">
+                            <img src="./assets/images/svg/search.svg" alt="search" />
+                        </div>
+                        <form
+                            action=""
+                            className="w-full flex justify-between items-center lg:hidden max-w-40 bg-Platinum py-1.5 px-2.5"
+                        >
+                            <input
+                                type="text"
+                                placeholder="Search"
+                                className="!outline-none !bg-transparent w-full placeholder:text-gray-400 text-gray-400"
+                                required
+                            />
+                            <button>
+                                <img src="./assets/images/svg/search.svg" alt="search" />
+                            </button>
+                        </form>
+                        <button className="lg:hidden py-7 bg-yellow pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-xs leading-custom-xs font-maisonMedium text-black group">
+                            Let’s Talk <img src="./assets/images/svg/right-arrow.svg" alt="button arrow" className="group-hover:scale-110 transition-all duration-500 ease-in-out" />
+                        </button>
+                    </div>
+                    <button className="max-lg:hidden bg-yellow pl-[33.97px] pr-[34px] flex items-center gap-1.5 text-custom-xs leading-custom-xs font-maisonMedium group ">
+                        Let’s Talk <img src="./assets/images/svg/right-arrow.svg" alt="button arrow" className="group-hover:scale-110 transition-all ease-in-out duration-700" />
+                    </button>
+                </div>
+                <div onClick={toggleSidebar} className="z-[15] flex-col gap-3 lg:hidden flex">
+                    <span
+                        className={`${open
+                                ? "w-[31px] h-0.5 bg-white rotate-[-138deg] translate-y-[12.5px] duration-300 ease-linear rounded"
+                                : "w-[31px] h-0.5 bg-white duration-300 ease-linear rounded"
+                            }`}
+                    ></span>
+                    <span
+                        className={`${open
+                                ? "w-[31px] h-0.5 bg-white rotate-[138deg] -translate-y-[2px] duration-300 ease-linear rounded"
+                                : "w-[31px] h-0.5 bg-white duration-300 ease-linear rounded"
+                            }`}
+                    ></span>
+                </div>
+            </nav>
+        </div>
+    );
+};
+
+export default Header;

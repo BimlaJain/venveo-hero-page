@@ -19,23 +19,35 @@ const Home = () => {
                     </p>
                 </header>
                 <div className="sm:mt-8 sm:mb-16 mt-4 mb-8">
-                    <div className="border-2 rounded-[50px] text-center py-3 sm:py-5 sm:px-7 px-4 flex max-w-[448px] sm:mx-auto mx-5 justify-between">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault(); 
+                            const input = document.getElementById("website-input");
+                            if (input && input.checkValidity()) {
+                                console.log("Form submitted: ", input.value);
+                            } else {
+                                input.reportValidity(); 
+                            }
+                        }}
+                        className="border-2 rounded-[50px] text-center py-3 sm:py-5 sm:px-7 px-4 flex max-w-[448px] sm:mx-auto mx-5 justify-between"
+                    >
                         <input
-                            id="email"
+                            id="website-input"
                             type="text"
-                            required
                             placeholder="Enter Your Website"
                             className="bg-transparent outline-none flex-grow text-white placeholder:text-grey"
                             aria-label="Enter your website"
+                            required
                         />
-                        <a
-                            href=""
+                        <button
+                            type="submit"
                             className="text-white text-center"
                             aria-label="Analyze your website"
                         >
                             Analyze
-                        </a>
-                    </div>
+                        </button>
+                    </form>
+
                 </div>
                 <div className='absolute flex lg:justify-center max-sm:left-[6%] max-lg:left-[27%] max-xl:left-[3%] max-2xl:left-[8%] pb-10'>
                     <img src="./assets/images/webp/hero-card.webp" alt="Hero card" className="lg:block hidden max-w-[924px] mx-auto" />
