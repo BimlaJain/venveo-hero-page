@@ -23,7 +23,7 @@ const Competition = () => {
                             id="email"
                             type="text"
                             placeholder="Enter Your Website"
-                            className="bg-transparent outline-none placeholder:text-black text-custom-xs font-normal leading-5"
+                            className="bg-transparent outline-none text-black placeholder:text-black text-custom-xs font-normal leading-5"
                             aria-label="Enter your website"
                             required
                         />

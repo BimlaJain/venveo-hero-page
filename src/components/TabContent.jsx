@@ -7,16 +7,16 @@ const Tab = ({ activeTab }) => {
                 <div style={{ backgroundImage: `url(./assets/images/webp/tab-one-bg.webp)` }} className="relative bg-cover !max-w-[1280px] bg-center sm:px-20 sm:py-16 px-4 py-6 bg-no-repeat">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-4/12">
-                            <p className="uppercase text-white text-custom-7xl font-sohne leading-[70px] font-bold max-xl:text-custom-5xl max-sm:leading-[52px]">
+                            <p className="uppercase text-white text-custom-lg font-sohne leading-[70px] font-bold max-xl:text-6xl max-sm:leading-[52px]">
                                 The smartest minds in the industry </p>
                             <p className="text-3xl font-light text-left text-white pb-8 max-sm:pb-4 max-xl:text-2xl font-maisonLight">
                                 Answer our questions and listen to our answers.</p>
                             <p className="font-normal text-custom-xs text-left text-white pb-[98px] max-lg:pb-[57px] max-sm:pb-[14px] max-sm:text-custom-xs font-maisonMono">
                                 This is placeholder but can add more to the business of building, some epic fails (and how to avoid them), and everything building science.
                             </p>
-                            <div className="flex max-lg:pb-10 max-sm:pb-6 max-sm:w-full hover:scale-110 transition-all duration-700 cursor-pointer">
-                                <a href="#" className="bg-red-500 flex px-[32px] py-[31px] text-white text-custom-xs pointer-events-none max-sm:w-full max-sm:pl-[57px]"><img className="mr-[10px]" src="./assets/images/svg/subscribe.svg" alt="" />
-                                    Subscribe to Podcast <span className="text-custom-xxs ml-1 mt-[10px]"> ▼</span>
+                            <div className="flex  max-lg:pb-10 max-sm:pb-6 max-sm:w-full hover:scale-105 transition-all duration-700 cursor-pointer">
+                                <a href="#" className="bg-red-500 flex items-center justify-center  px-[32px] py-[31px] text-white text-custom-xs pointer-events-none max-sm:w-full max-sm:pl-[57px]"><img className="mr-[10px]" src="./assets/images/svg/subscribe.svg" alt="" />
+                                    Subscribe to Podcast <span className="text-custom-xxs ml-1 mt-[5px]"> ▼</span>
                                 </a>
                             </div>
                         </div>
@@ -38,7 +38,7 @@ const Tab = ({ activeTab }) => {
         case "roi":
             return (
                 <div style={{ backgroundImage: `url(./assets/images/webp/tab-two-bg.webp)` }} className="relative bg-cover max-sm:!bg-mobile-tab-two bg-no-repeat md:bg-tab-two bg-center pt-20 max-w-[1280px] max-xl:pt-12 max-sm:pt-5 h-[720px]">
-                    <h2 className="text-custom-7xl max-md:text-custom-4xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 font-sohne">
+                    <h2 className="text-custom-lg max-md:text-6xl font-bold leading-[70px] text-left text-white ps-20 max-sm:ps-8 font-sohne">
                         Proven Results </h2>
                     <p className="text-3xl font-light text-left text-white ps-20 max-sm:text-2xl max-sm:ps-8 font-maisonLight">
                         Not hopes and prayers. </p>
@@ -55,7 +55,7 @@ const Tab = ({ activeTab }) => {
                 <div style={{ backgroundImage: `url(./assets/images/webp/tab-three-bg.webp)` }} className="max-w-[1280px] px-[79px] pt-[75px] max-lg:pt-[45px] h-[720px] max-xl:h-[620px] max-lg:h-full max-md:px-[32px]">
                     <div className="lg:flex justify-between">
                         <div className="lg:w-5/12">
-                            <h2 className="text-custom-7xl max-md:text-5xl leading-[70px] font-sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
+                            <h2 className="text-custom-lg max-md:text-5xl leading-[70px] font-sohne font-bold max-xl:text-6xl text-left pb-2 text-white uppercase">
                                 Project Radar </h2>
                             <img src="./assets/images/webp/tab-logo.webp" alt="Tab Logo" className=" max-w-[72.86px] pointer-events-none" />
                             <p className="text-3xl font-light text-left text-white leading-8 pt-28 max-xl:pt-16 max-sm:pt-6 pb-[14px] font-maisonLight">
